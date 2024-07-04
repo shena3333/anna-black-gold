@@ -100,7 +100,7 @@ footer p {
 }
 .floating-phone {
     position: fixed;
-    bottom: 40px;
+    bottom: 80px;
     right: 20px;
     background-color: #d3a97a;
     padding: 10px 15px;
@@ -131,7 +131,7 @@ footer p {
 }
 .anna-photos {
     display: flex;
-    justify-content: center; /* Центрируем изображения по горизонтали */
+    justify-content: center;
 }
 
 .photo {
@@ -146,9 +146,9 @@ footer p {
 .photo img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Заполняем родительский контейнер, сохраняя пропорции */
+    object-fit: cover;
     transition: transform 0.3s ease;
-    border-radius: 10px; /* Закругляем углы изображения */
+    border-radius: 10px;
 }
 
 .photo:hover {
@@ -157,9 +157,19 @@ footer p {
 }
 
 .main-avatar {
-    width: 200px; /* настройте размер логотипа в зависимости от ваших потребностей */
+    width: 200px;
     height: auto;
-    margin-bottom: 10px; /* пример отступа между логотипом и заголовком */
+    margin-bottom: 10px;
     border-radius: 45%;
 }
 
+.more-reviews-link {
+    color: #d3a97a;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+
+.more-reviews-link:hover {
+    color: #fff;
+}
