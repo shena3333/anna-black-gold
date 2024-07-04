@@ -2,14 +2,14 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #000;
-    color: #ffd700;
+    color: #d3a97a;
 }
 
 header {
     background-color: #000;
     padding: 50px 0;
     text-align: center;
-    border-bottom: 2px solid #ffd700;
+    border-bottom: 2px solid #d3a97a;
 }
 
 header h1 {
@@ -32,7 +32,7 @@ section {
 }
 
 .about, .services, .packages, .testimonials, .event-photos, .gallery, .contact {
-    border-bottom: 2px solid #ffd700;
+    border-bottom: 2px solid #d3a97a;
 }
 
 h2 {
@@ -64,7 +64,7 @@ footer p {
 .package {
     margin: 30px 0;
     padding: 20px;
-    border: 1px solid #ffd700;
+    border: 1px solid #d3a97a;
 }
 
 .package h3 {
@@ -81,7 +81,7 @@ footer p {
 .gallery-grid img, .photo-grid img, .testimonials-grid img {
     width: 100%;
     height: auto;
-    border: 2px solid #ffd700;
+    border: 2px solid #d3a97a;
 }
 
 .social-icons {
@@ -89,7 +89,7 @@ footer p {
 }
 
 .social-icons a {
-    color: #ffd700;
+    color: #d3a97a;
     margin: 0 10px;
     font-size: 1.5em;
     text-decoration: none;
@@ -100,9 +100,9 @@ footer p {
 }
 .floating-phone {
     position: fixed;
-    bottom: 20px;
+    bottom: 40px;
     right: 20px;
-    background-color: #ffd700;
+    background-color: #d3a97a;
     padding: 10px 15px;
     border-radius: 50px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
@@ -156,7 +156,7 @@ footer p {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-.logo {
+.main-avatar {
     width: 200px; /* настройте размер логотипа в зависимости от ваших потребностей */
     height: auto;
     margin-bottom: 10px; /* пример отступа между логотипом и заголовком */
