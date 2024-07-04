@@ -100,7 +100,7 @@ footer p {
 }
 .floating-phone {
     position: fixed;
-    bottom: 80px;
+    bottom: 150px;
     right: 20px;
     background-color: #d3a97a;
     padding: 10px 15px;
