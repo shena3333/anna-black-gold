@@ -176,3 +176,79 @@
 .more-reviews-link:hover {
     color: #fff;
 }
+
+.steps .container {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steps .step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    text-align: left;
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+/* .steps .step:not(:last-child) .step-number-circle::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: calc(100% + 30px);
+    background-color: #d3a97a;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+} */
+
+.steps .step-number-circle {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+    min-height: 40px;
+    border-radius: 50%;
+    background-color: #d3a97a;
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-right: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.steps .step-content {
+    text-align: center;
+    padding-left: 0;
+}
+
+.steps .step-title {
+    font-size: 1.5em;
+    color: #d3a97a;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.steps .step-text {
+    font-size: 1.2em;
+    color: #fff;
+    text-align: left;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid  #d3a97a;
+    margin: 0 auto;
+}
