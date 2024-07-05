@@ -1,29 +1,30 @@
-body {
+.body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #000;
     color: #d3a97a;
 }
 
-header {
+.header {
     background-color: #000;
     padding: 50px 0;
     text-align: center;
     border-bottom: 2px solid #d3a97a;
 }
 
-header h1 {
+.header-title {
     margin: 0;
     font-size: 3em;
 }
 
-header p {
+.header-subtitle {
     font-size: 1.5em;
 }
 
-section {
+.section {
     padding: 50px 0;
     text-align: center;
+    border-bottom: 2px solid #d3a97a;
 }
 
 .container {
@@ -31,32 +32,30 @@ section {
     margin: 0 auto;
 }
 
-.about, .services, .packages, .testimonials, .event-photos, .gallery, .contact {
-    border-bottom: 2px solid #d3a97a;
-}
-
-h2 {
+.section-title {
     font-size: 2.5em;
     margin-bottom: 20px;
 }
 
-ul {
+.package-list,
+.services-list {
     list-style: none;
     padding: 0;
 }
 
-ul li {
+.service-item,
+.package-item {
     font-size: 1.2em;
     margin-bottom: 10px;
 }
 
-footer {
+.footer {
     background-color: #000;
     padding: 20px 0;
     text-align: center;
 }
 
-footer p {
+.footer-text {
     margin: 0;
     font-size: 1em;
 }
@@ -67,18 +66,20 @@ footer p {
     border: 1px solid #d3a97a;
 }
 
-.package h3 {
+.package-title {
     font-size: 2em;
     margin-bottom: 15px;
 }
 
-.gallery-grid, .photo-grid, .testimonials-grid {
+.photo-grid,
+.testimonials-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
 }
 
-.gallery-grid img, .photo-grid img, .testimonials-grid img {
+.event-photo,
+.testimonial-photo {
     width: 100%;
     height: auto;
     border: 2px solid #d3a97a;
@@ -88,16 +89,17 @@ footer p {
     margin-bottom: 10px;
 }
 
-.social-icons a {
+.social-icons-link {
     color: #d3a97a;
     margin: 0 10px;
     font-size: 1.5em;
     text-decoration: none;
 }
 
-.social-icons a:hover {
+.social-icons-link:hover {
     color: #fff;
 }
+
 .floating-phone {
     position: fixed;
     bottom: 110px;
@@ -110,14 +112,14 @@ footer p {
     transition: background-color 0.3s ease;
 }
 
-.floating-phone a {
+.floating-phone-link {
     display: flex;
     align-items: center;
     text-decoration: none;
     color: #000;
 }
 
-.floating-phone i {
+.floating-phone-icon {
     margin-right: 10px;
 }
 
@@ -129,6 +131,7 @@ footer p {
 .floating-phone:hover {
     background-color: #ffa500;
 }
+
 .anna-photos {
     display: flex;
     justify-content: center;
@@ -143,7 +146,7 @@ footer p {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.photo img {
+.photo-anna {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -153,21 +156,20 @@ footer p {
 
 .photo:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 20px rgba(63, 63, 63, 0.5);
 }
 
 .main-avatar {
     width: 200px;
     height: auto;
     margin-bottom: 10px;
-    border-radius: 45%;
+    border-radius: 43%;
 }
 
 .more-reviews-link {
     color: #d3a97a;
     text-decoration: none;
     font-size: 1.5em;
-
 }
 
 .more-reviews-link:hover {
