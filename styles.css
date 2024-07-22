@@ -90,15 +90,16 @@
     border: 2px solid #d3a97a;
 }
 
-.contact-phone-link{
+.contact-phone-link {
     text-decoration: none;
 }
 
-.contact-phone{
+.contact-phone {
     color: #fff;
     font-size: 1.5em;
 
 }
+
 .social-icons {
     margin-bottom: 10px;
 }
@@ -188,6 +189,11 @@
 }
 
 .more-reviews-link:hover {
+    color: #fff;
+}
+
+.section-subtitle {
+    font-size: 1.5em;
     color: #fff;
 }
 
