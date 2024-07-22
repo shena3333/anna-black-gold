@@ -68,9 +68,13 @@
     border: 1px solid #d3a97a;
 }
 
-.package-title,
-.review-title {
+.package-title {
     font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.review-title {
+    font-size: 1.5em;
     margin-bottom: 15px;
 }
 
